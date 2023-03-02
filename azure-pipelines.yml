@@ -30,7 +30,7 @@ stages:
         workingDirectory: '$(Build.SourcesDirectory)'
 
 
-      - task: PublishBuildArtifacts@0
+      - task: PublishBuildArtifacts@1
         inputs:
           ArtifactName: 'drop'
           PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
