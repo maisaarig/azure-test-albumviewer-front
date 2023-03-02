@@ -1,0 +1,28 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+pool:
+  name: mypool
+  demands: npm
+
+steps:
+- task: Npm@1
+  displayName: 'angular-cli'
+  inputs:
+    verbose: false
+
+- task: Npm@1
+  displayName: 'angular-build'
+  inputs:
+    command: custom
+    verbose: false
+    customCommand: 'run ng build --configuration:production'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'publish-artifact'
+  inputs:
+    PathtoPublish: dist
+    ArtifactName: 'angular-artifact'
+
