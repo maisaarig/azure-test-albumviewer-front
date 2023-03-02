@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AlbumViewerAngular (content-only).props" />
+</Project>

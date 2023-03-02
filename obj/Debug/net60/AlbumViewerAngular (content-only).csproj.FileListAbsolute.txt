@@ -1,0 +1,24 @@
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\bin\Debug\net60\AlbumViewerAngular (content-only).exe
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\bin\Debug\net60\AlbumViewerAngular (content-only).deps.json
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\bin\Debug\net60\AlbumViewerAngular (content-only).runtimeconfig.json
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\bin\Debug\net60\AlbumViewerAngular (content-only).dll
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\bin\Debug\net60\AlbumViewerAngular (content-only).pdb
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).csproj.AssemblyReference.cache
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).AssemblyInfoInputs.cache
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).AssemblyInfo.cs
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).csproj.CoreCompileInputs.cache
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\staticwebassets\msbuild.AlbumViewerAngular (content-only).Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\staticwebassets\msbuild.build.AlbumViewerAngular (content-only).props
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\staticwebassets\msbuild.buildMultiTargeting.AlbumViewerAngular (content-only).props
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\staticwebassets\msbuild.buildTransitive.AlbumViewerAngular (content-only).props
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\staticwebassets.pack.json
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\staticwebassets.build.json
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\staticwebassets.development.json
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\scopedcss\bundle\AlbumViewerAngular (content-only).styles.css
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).dll
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\refint\AlbumViewerAngular (content-only).dll
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).pdb
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\AlbumViewerAngular (content-only).genruntimeconfig.cache
+C:\Users\maisaa.saarig\Downloads\AlbumViewerVNext-master\AlbumViewerVNext-master\src\AlbumViewerAngular\obj\Debug\net60\ref\AlbumViewerAngular (content-only).dll
