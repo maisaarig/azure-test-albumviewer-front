@@ -30,11 +30,11 @@ stages:
         workingDirectory: '$(Build.SourcesDirectory)'
 
 
-      - task: PublishPipelineArtifacts@0
+      - task: PublishBuildArtifacts@0
         inputs:
           ArtifactName: 'drop'
-          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-          #/$(Build.BuildId).zip'
+          PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
           #PathtoPublish: dist
-
+ 
+ 
           
