@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 pool:
-  vmimage: windows-latest
+  name: mypool
   demands: npm
 
 steps:
