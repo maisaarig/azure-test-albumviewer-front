@@ -30,8 +30,9 @@ stages:
         workingDirectory: '$(Build.SourcesDirectory)'
 
 
-      - task: PublishBuildArtifacts@1
+      - task: PublishBuildArtifacts@0
         inputs:
+          ArtifactName: 'drop'
           PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
           #PathtoPublish: dist
-          ArtifactName: 'angular-artifact'
+          
