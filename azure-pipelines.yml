@@ -1,29 +1,37 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+# Node.js with Angular
+# Build a Node.js project that uses Angular.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
 
 pool:
   name: mypool
-  demands: npm
 
-steps:
-- task: Npm@1
-  displayName: 'angular-cli'
-  inputs:
-    verbose: false
+stages:
+- stage: Build
+  displayName: Build stage
+  jobs:
+  - job: Build
+    pool:
+      name: mypool
+    steps:
+      - task: NodeTool@0
+        inputs:
+          versionSpec: '12.x'
+        displayName: 'Install Node.js 12.x'
 
-- task: Npm@1
-  displayName: 'angular-build'
-  inputs:
-    command: custom
-    verbose: false
-    customCommand: 'run ng build --configuration:production'
-
-- task: PublishBuildArtifacts@1
-  displayName: 'publish-artifact'
-  inputs:
-    PathtoPublish: dist
-    ArtifactName: 'angular-artifact'
+      - script: |
+          npm install -g @angular/cli@11.2.2
+          npm install
+          ng build --prod
+        displayName: 'npm install and build'
+        workingDirectory: '$(Build.SourcesDirectory)'
 
 
+      - task: PublishBuildArtifacts@1
+        inputs:
+          #PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+          PathtoPublish: dist
+          ArtifactName: 'angular-artifact'
