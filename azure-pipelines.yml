@@ -37,7 +37,7 @@ stages:
           #publishLocation: 'Container'
           #PathtoPublish: dist
           
-      - task: PublishPipelineArtifact@0
+      - task: PublishPipelineArtifact@1
         inputs:
           artifactName: 'dropArtifact' # string. Required. The name of this artifact. Default: drop.
           targetPath: '$(Build.ArtifactStagingDirectory)/' # string. Required. Path to publish. 
