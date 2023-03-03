@@ -32,7 +32,7 @@ stages:
       - task: PublishPipelineArtifact@1
         inputs:
           artifactName: 'dropArtifact' # string. Required. The name of this artifact. Default: drop.
-          targetPath: '$(Build.ArtifactStagingDirectory)/' # string. Required. Path to publish. 
+          targetPath: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' # string. Required. Path to publish. 
           #properties: # string. Custom properties.
  
           
