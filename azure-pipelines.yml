@@ -27,7 +27,7 @@ stages:
           npm install
           ng build --prod
         displayName: 'npm install and build'
-        workingDirectory: '$(Build.SourcesDirectory)'
+        workingDirectory: '$(System.DefaultWorkingDirectory)'
 
 
       #- task: PublishBuildArtifacts@1
