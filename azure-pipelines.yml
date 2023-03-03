@@ -33,6 +33,7 @@ stages:
         inputs:
           artifactName: 'dropArtifact' # string. Required. The name of this artifact. Default: drop.
           targetPath: '$(Build.ArtifactStagingDirectory)/' # string. Required. Path to publish. 
+          publishLocation: 'pipeline'
           #properties: # string. Custom properties.
  
           
