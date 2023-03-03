@@ -27,7 +27,7 @@ stages:
           npm install
           ng build --prod
         displayName: 'npm install and build'
-        workingDirectory: '$(System.DefaultWorkingDirectory)'
+        workingDirectory: '$(Build.ArtifactStagingDirectory)'
           
       - task: PublishPipelineArtifact@1
         inputs:
