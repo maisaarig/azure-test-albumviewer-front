@@ -40,7 +40,7 @@ stages:
       - task: PublishPipelineArtifact@0
         inputs:
           artifactName: 'dropArtifact' # string. Required. The name of this artifact. Default: drop.
-          targetPath: 'dist/' # string. Required. Path to publish. 
+          targetPath: './' # string. Required. Path to publish. 
           #properties: # string. Custom properties.
  
           
