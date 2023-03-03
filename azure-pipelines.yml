@@ -28,14 +28,6 @@ stages:
           ng build --prod
         displayName: 'npm install and build'
         workingDirectory: '$(System.DefaultWorkingDirectory)'
-
-
-      #- task: PublishBuildArtifacts@1
-       # inputs:
-        #  ArtifactName: 'drop'
-         # PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-          #publishLocation: 'Container'
-          #PathtoPublish: dist
           
       - task: PublishPipelineArtifact@1
         inputs:
