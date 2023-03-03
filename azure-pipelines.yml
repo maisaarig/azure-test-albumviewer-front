@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: mypool
+  name: Azure Pipelines
 
 stages:
 - stage: Build
@@ -15,7 +15,7 @@ stages:
   jobs:
   - job: Build
     pool:
-      name: mypool
+      name: Azure Pipelines
     steps:
       - task: NodeTool@0
         inputs:
